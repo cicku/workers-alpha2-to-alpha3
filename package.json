@@ -1,0 +1,23 @@
+{
+  "name": "workers-alpha2-to-alpha3",
+  "version": "0.1",
+  "description": "Transform Country Code from Alpha-2 to Alpha-3",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cicku/workers-alpha2-to-alpha3.git"
+  },
+  "keywords": [
+    "alpha-2",
+    "alpha-3",
+    "countrycode",
+    "cf-ipcountry",
+    "workers"
+  ],
+  "author": "Christopher M",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cicku/workers-alpha2-to-alpha3/issues"
+  },
+  "homepage": "https://cicku.me"
+}
