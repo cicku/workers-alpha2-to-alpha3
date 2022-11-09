@@ -277,7 +277,7 @@ async function handleRequest(request) {
   const newReq = new Request(request)
 
   if (country_a2 != null && country_a2 in countryMap) {
-    const country_a3 = countryMap[country]
+    const country_a3 = countryMap[country_a2]
     newReq.headers.set('cf-ipcountry', country_a3);
   }
   return await fetch(newReq);
